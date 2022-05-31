@@ -54,6 +54,8 @@ p {
     width: 100%;
     height: 100%;
     position: absolute;
+    -webkit-overflow-scrolling: auto !important;
+    -webkit-transform: translate3d(0,0,0);
     z-index: -2;
     background-image: linear-gradient(0deg, hsl(31, 62%, 85%) 0%, hsl(292, 76%, 85%) 100%);
 }
@@ -71,6 +73,7 @@ p {
     padding-right: 5vw;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
+    z-index: 2;
 }
 
 
